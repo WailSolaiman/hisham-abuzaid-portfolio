@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Hisham Ali Ahmed Abuzaid — Transport & Strategic Infrastructure"
+  },
+  "nav": {
+    "brand": "Hisham Abuzaid",
+    "vision": "Stewardship",
+    "achievements": "Milestones",
+    "qualifications": "Credentials",
+    "training": "Training",
+    "recognitions": "Honors",
+    "experience": "Experience",
+    "documents": "Documents",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "backToTop": "Back to top",
+    "preferenceTheme": "Theme",
+    "preferenceLanguage": "Language",
+    "themeUseLight": "Light",
+    "themeUseDark": "Dark"
+  },
+  "hero": {
+    "kicker": "Former Minister of Transport & Strategic Infrastructure Leader",
+    "headline": "Hisham Abuzaid",
+    "lead": "Executive leader with over two decades of experience in transportation, logistics, and public sector transformation. Led national-level infrastructure strategies and multi-agency initiatives in the Republic of Sudan.",
+    "quote": "“Strategic vision. Institutional impact.”"
+  },
+  "vision": {
+    "statValue": "25+",
+    "statLabel": "Years of Leadership",
+    "kicker": "Built on institutional stewardship",
+    "title": "Strategic Stewardship",
+    "p1": "Senior executive specialized in transportation systems, public sector reform, and strategic project delivery. Proven ability to lead national initiatives, align stakeholders, and drive long-term economic impact.",
+    "bullets": [
+      "Strategic planning & policy development",
+      "Infrastructure & large-scale project leadership",
+      "Public sector governance",
+      "Financial planning & budget oversight",
+      "Cross-functional leadership"
+    ]
+  },
+  "achievements": {
+    "kicker": "Archive of Excellence",
+    "title": "Milestones of Reform",
+    "items": [
+      {
+        "n": "01",
+        "title": "National Transport Strategy",
+        "body": "Led national transportation strategy at ministerial level, aligning infrastructure and policy execution across sectors."
+      },
+      {
+        "n": "02",
+        "title": "Infrastructure & Public Transport Programs",
+        "body": "Directed large-scale public transport and infrastructure initiatives across Sudan."
+      },
+      {
+        "n": "03",
+        "title": "Institutional & Operational Reform",
+        "body": "Managed complex multi-stakeholder operations and improved coordination across government entities."
+      }
+    ]
+  },
+  "qualifications": {
+    "kicker": "",
+    "title": "Credentials & Expertise",
+    "items": [
+      {
+        "label": "Academic Foundation",
+        "title": "",
+        "body": "PhD Researcher – Transportation Economics\nArab Academy for Science, Technology and Maritime Transport, Alexandria, Egypt (Ongoing)\n\nMaster’s Degree – Logistics & Transportation Economics\nOxford Academy for Consulting & Specialized Studies, Alexandria, Egypt (2017)\n\nMBA – Transportation Economics\nMultimedia University, Malaysia (2014)\n\nHigh Diploma – Business Administration\nAcademy of Management Studies, Sudan (1997)\n\nBachelor of Business Administration\nCairo University, Khartoum Branch, Sudan (1997)"
+      },
+      {
+        "label": "Professional Certifications",
+        "title": "",
+        "body": "PRINCE2 Practitioner\nSix Sigma\nTotal Quality Management"
+      }
+    ]
+  },
+  "training": {
+    "kicker": "",
+    "title": "Professional development",
+    "label": "Additional educational courses",
+    "courses": [
+      {
+        "title": "Modern strategies in management, inspection and financial control",
+        "meta": "MBI Institute · Egypt · 2015"
+      },
+      {
+        "title": "Prince 2 Practitioner Certificate",
+        "meta": "Emirates Integrated Tel. Co. (du) · Dubai, UAE · 2009"
+      },
+      {
+        "title": "Total Quality Management Advanced course",
+        "meta": "Emirates Integrated Tel. Co. (du) · Dubai, UAE · 2009"
+      },
+      {
+        "title": "Introduction to Six Sigma certificate",
+        "meta": "Emirates Integrated Tel. Co. (du) · 2008"
+      },
+      {
+        "title": "Advanced Coaching Skills Course",
+        "meta": "Emirates Integrated Tel. Co. (du) · Dubai · 2007"
+      },
+      {
+        "title": "NEURO-Linguistic Programming (NLP) Course",
+        "meta": "ANNOKHBAH for Self Development Center · Dubai · 2005"
+      },
+      {
+        "title": "Time Management & Work Pressure Course",
+        "meta": "Creativity Center · Dubai · 2005"
+      },
+      {
+        "title": "Advanced Telephone skills course",
+        "meta": "Spear Head Training Center · Dubai · 2005"
+      },
+      {
+        "title": "Negotiation and Persuasion skills – Resolution and Conflict course",
+        "meta": "Creativity Center · Dubai · 2005"
+      },
+      {
+        "title": "Quality training course",
+        "meta": "Dubai Transport Co. Training Center · Dubai · 2003"
+      },
+      {
+        "title": "Telephone skills course",
+        "meta": "Spear Head Training Center · Dubai · 1998"
+      }
+    ]
+  },
+  "recognitions": {
+    "kicker": "",
+    "title": "Recognitions",
+    "label": "Awards & appreciation",
+    "entries": [
+      {
+        "text": "Selected as employee of the year 2012 – KRT State Government / Sudan."
+      },
+      {
+        "text": "Selected as employee of the year 2007 (Emirates Integrated Telecommunications Co. – du)."
+      },
+      {
+        "text": "Selected as Employee of the Year 2005 (RTA – Dubai)."
+      },
+      {
+        "text": "Selected as Employee of the Month three times (RTA – Dubai) in:",
+        "details": [
+          "October 2004",
+          "February 2005",
+          "January 2006"
+        ]
+      },
+      {
+        "text": "Appreciation certificates from:",
+        "details": [
+          "Dubai Transport Corporation (RTA) · 1999, 2000, 2004, 2006",
+          "Economic Department, Dubai Shopping Festival (DSF) administration · 2000",
+          "Ministry of Infrastructure & Transportation, KRT State, Sudan · 2013"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "kicker": "Professional Tenure",
+    "title": "A Decades-Long Legacy",
+    "items": [
+      {
+        "period": "2021 — 2023",
+        "title": "Minister of Transport — Sudan",
+        "body": "Led national transport policies and infrastructure strategy across public sector institutions."
+      },
+      {
+        "period": "2020 — 2021",
+        "title": "Managing Director — Land Transportation Authority",
+        "body": "Oversaw transport operations and regulatory frameworks."
+      },
+      {
+        "period": "2019 — 2020",
+        "title": "General Manager — General Transportation Co.",
+        "body": "Managed public transportation systems and operational performance."
+      },
+      {
+        "period": "2011 — 2019",
+        "title": "Ministry of Infrastructure & Transportation — Sudan",
+        "body": "Held multiple leadership roles across coordination, executive management, and integrated solutions."
+      },
+      {
+        "period": "1998 — 2011",
+        "title": "Earlier Career — UAE",
+        "body": "Built experience in telecom, transport operations, and customer service systems."
+      }
+    ]
+  },
+  "documents": {
+    "kicker": "Policy & Archive",
+    "title": "Documents",
+    "items": [
+      { "title": "Ministerial Report 2022", "href": "#" },
+      { "title": "Strategic Infrastructure Plan", "href": "#" },
+      { "title": "Fiscal Reform Whitepaper", "href": "#" },
+      { "title": "Economic Resilience Brief", "href": "#" },
+      { "title": "SME Growth Framework", "href": "#" },
+      { "title": "Global Trade Policy 2023", "href": "#" },
+      { "title": "Debt Restructuring Summary", "href": "#" },
+      { "title": "Annual Governance Audit", "href": "#" }
+    ]
+  },
+  "contact": {
+    "title": "Executive Advisory & Leadership",
+    "body": "Available for executive advisory roles, infrastructure strategy consulting, and public sector transformation initiatives.",
+    "portfolio": "Download portfolio"
+  },
+  "footer": {
+    "legalName": "HISHAM ALI AHMED ABUZAID",
+    "rights": "© 2026 Hisham Ali Ahmed Abuzaid. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "emailAria": "Email Hisham Abuzaid",
+    "linkedInAria": "Hisham Abuzaid on LinkedIn"
+  },
+  "policy": {
+    "privacyTitle": "Privacy Policy",
+    "privacyLead": "This page describes how we handle personal information when you use this site. Replace this text with your final policy.",
+    "termsTitle": "Terms of Service",
+    "termsLead": "These terms govern use of this website. Replace this text with your final legal terms.",
+    "backHome": "Back to home"
+  }
+}

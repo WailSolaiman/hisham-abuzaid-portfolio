@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;600&amp;family=Work+Sans:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,700;0,900;1,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-low": "#f3f4f5",
+                        "on-surface": "#191c1d",
+                        "on-tertiary-fixed": "#261900",
+                        "secondary-fixed": "#d5e3fd",
+                        "on-background": "#191c1d",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#bac8dc",
+                        "secondary-container": "#d5e3fd",
+                        "on-secondary-fixed": "#0d1c2f",
+                        "inverse-primary": "#bac8dc",
+                        "on-primary-fixed-variant": "#3a4859",
+                        "surface-tint": "#525f71",
+                        "surface-bright": "#f8f9fa",
+                        "on-surface-variant": "#44474c",
+                        "inverse-surface": "#2e3132",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "primary-fixed": "#d6e4f9",
+                        "on-tertiary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed": "#ffdea5",
+                        "error-container": "#ffdad6",
+                        "on-error-container": "#93000a",
+                        "background": "#f8f9fa",
+                        "secondary-fixed-dim": "#b9c7e0",
+                        "on-tertiary-container": "#a17f3b",
+                        "outline": "#74777d",
+                        "on-primary-fixed": "#0f1c2c",
+                        "surface-container": "#edeeef",
+                        "on-error": "#ffffff",
+                        "surface-dim": "#d9dadb",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-primary": "#ffffff",
+                        "surface-container-high": "#e7e8e9",
+                        "tertiary-container": "#261900",
+                        "on-secondary-fixed-variant": "#3a485c",
+                        "primary-container": "#0d1b2a",
+                        "on-secondary-container": "#57657b",
+                        "tertiary": "#000000",
+                        "primary": "#0d1b2a",
+                        "on-primary-container": "#778598",
+                        "inverse-on-surface": "#f0f1f2",
+                        "surface-variant": "#e1e3e4",
+                        "on-secondary": "#ffffff",
+                        "surface": "#f8f9fa",
+                        "outline-variant": "#c4c6cc",
+                        "secondary": "#515f74"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Work Sans", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        html { scroll-behavior: smooth; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-vignette {
+            background: radial-gradient(circle at center, transparent 0%, rgba(13, 27, 42, 0.05) 100%);
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Manrope', sans-serif; }
+        .font-black { font-weight: 800; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-tertiary-fixed selection:text-on-tertiary-fixed">
+<!-- TopNavBar from COMPONENTS_17 -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-6">
+<div class="text-2xl font-bold tracking-tighter text-slate-950 dark:text-white font-headline font-extrabold">Hisham Abuzaid</div>
+<div class="hidden md:flex items-center space-x-8 font-label text-xs uppercase tracking-widest font-semibold">
+<a class="text-slate-950 dark:text-white border-b-2 border-amber-400 pb-1" href="#vision">Vision</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#achievements">Achievements</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#qualifications">Qualifications</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#experience">Experience</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#contact">Contact</a>
+</div>
+<div class="flex items-center gap-6 ml-4">
+<button aria-label="Toggle Theme" class="flex items-center justify-center p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-slate-900 dark:text-white">light_mode</span>
+</button>
+<button class="font-label font-black text-[0.65rem] tracking-[0.2em] uppercase text-slate-900 dark:text-white hover:opacity-70 transition-opacity">
+        EN/AR
+    </button>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex items-center bg-surface-container-lowest overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-2 w-full h-full max-w-7xl mx-auto px-12 gap-16 items-center">
+<div class="order-2 md:order-1 space-y-10">
+<span class="inline-block font-label text-xs uppercase tracking-[0.4em] text-on-surface-variant font-bold border-l-4 border-tertiary-fixed-dim pl-4">Ministerial Archive &amp; Legacy</span>
+<h1 class="text-6xl md:text-[5.5rem] font-black tracking-tighter leading-[0.9] text-primary">
+                    Architect of <span class="text-outline-variant italic font-serif font-bold">Economic</span> Resilience.
+                </h1>
+<p class="text-xl text-on-surface-variant max-w-lg leading-relaxed font-light font-body">
+                    A decade of transformative governance, leading through periods of unprecedented global change with strategic foresight and diplomatic precision.
+                </p>
+<div class="flex items-center gap-8 pt-4">
+<div class="h-px w-24 bg-tertiary-fixed-dim"></div>
+<span class="font-serif italic text-lg text-on-surface opacity-80">“Strategy is the art of seeing the invisible.”</span>
+</div>
+</div>
+<div class="order-1 md:order-2 relative h-[716px]">
+<div class="absolute inset-0 bg-surface-container-high rounded-md overflow-hidden">
+<img alt="Professional portrait of Hisham Abuzaid" class="w-full h-full object-cover grayscale brightness-90 contrast-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZiwc39zRHTkO_b97mJ4WXvrU_GLEjIWWhEpRMgx-31yGOQbfGAsuG4DdaEISubb3D3eOXDjy3k5Xk4nz-jr9QEVWNHJPpWKlOUSJk8o7POKRZlcdlLHEatcnUvCNvXkdeikRYX3i6dFAbv4eqxu_hfBCv7RAsGPoXz-W2GsEebg0kZewbkQkGNeGlepCz-pR7GRpOviX0ij-NzXTrdvfTJy2N3YC5B5XMTVJzV6nYTtP6utnmHwKhbuUB2mYT02EtIn2-mC5CVYA"/>
+<div class="absolute inset-0 hero-vignette"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Vision (About) Section -->
+<section class="py-32 bg-white" id="vision">
+<div class="max-w-7xl mx-auto px-12 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+<div class="relative">
+<img alt="Modern architectural structure" class="w-full aspect-[4/5] object-cover rounded-md shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmNgaYeUt6KMR-aTQ0yXTR2jVhhyZeXGRWKrHTzsTMOMZM4QMCRZmPQdflSKoVHavLAqhpwr-VnT1UenIdQSd4_adhNg1Ys51LTXi7kP9knEbBkk0HO-4DhTJ99Yo_v9E2kBpwj6iIrgGO0E_eQ3urQSaYEmDsCMRZK-OkZUi5Ff3nE3gGKUHUSKYzl19KQXHVabvMT4XfQURjl-QSi4AhVA-njrxE-6JpzW5mcPk8rESwf0QS6hTAxWU_Tio1hi5_UwMXWt-LM1M"/>
+<div class="absolute -bottom-8 -right-8 bg-tertiary-fixed p-12 hidden lg:block shadow-xl">
+<span class="text-5xl font-headline font-extrabold text-on-tertiary-fixed">25+</span>
+<p class="text-[0.65rem] font-label font-black uppercase tracking-[0.25em] text-on-tertiary-fixed mt-2">Years of Public Service</p>
+</div>
+</div>
+<div class="space-y-10">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-secondary font-bold">Vision for Institutional Sovereignty</span>
+<h2 class="text-5xl md:text-6xl font-extrabold tracking-tight text-primary">Strategic Stewardship.</h2>
+<div class="space-y-6 text-on-surface-variant leading-relaxed text-lg font-body">
+<p>Hisham Abuzaid’s tenure as Minister was defined by a rigorous commitment to institutional reform and sustainable development. By bridging the gap between legacy systems and modern innovation, he spearheaded initiatives that redirected the nation's economic trajectory.</p>
+<p>His approach combines data-driven decision making with a profound understanding of geopolitical dynamics, ensuring that every policy served both immediate needs and long-term stability.</p>
+</div>
+<ul class="space-y-5 pt-4">
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface font-semibold">Policy Reform Advocacy</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface font-semibold">Global Economic Diplomacy</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label text-sm uppercase tracking-widest text-on-surface font-semibold">Crisis Management Leadership</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Achievements Section -->
+<section class="py-32 bg-surface-container-low" id="achievements">
+<div class="max-w-7xl mx-auto px-12">
+<div class="mb-20">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-secondary mb-4 block font-bold">Archive of Excellence</span>
+<h2 class="text-5xl md:text-6xl font-extrabold text-primary tracking-tight">Milestones of Reform</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-1 px-0.5 bg-outline-variant/20">
+<div class="bg-surface-container-lowest p-12 transition-colors duration-300 hover:bg-surface-container-high group">
+<span class="text-tertiary-fixed-dim font-headline text-6xl font-extrabold opacity-20 group-hover:opacity-100 transition-opacity">01</span>
+<h3 class="mt-8 text-2xl font-extrabold text-on-surface tracking-tight">Fiscal Transparency Act</h3>
+<p class="mt-4 text-on-surface-variant text-base leading-relaxed font-body">Revolutionized public spending audits, achieving a 40% reduction in bureaucratic redundancy within 24 months.</p>
+</div>
+<div class="bg-surface-container-lowest p-12 transition-colors duration-300 hover:bg-surface-container-high group">
+<span class="text-tertiary-fixed-dim font-headline text-6xl font-extrabold opacity-20 group-hover:opacity-100 transition-opacity">02</span>
+<h3 class="mt-8 text-2xl font-extrabold text-on-surface tracking-tight">Tech Hub Initiative</h3>
+<p class="mt-4 text-on-surface-variant text-base leading-relaxed font-body">Established five regional innovation clusters, attracting over $2B in direct foreign investment.</p>
+</div>
+<div class="bg-surface-container-lowest p-12 transition-colors duration-300 hover:bg-surface-container-high group">
+<span class="text-tertiary-fixed-dim font-headline text-6xl font-extrabold opacity-20 group-hover:opacity-100 transition-opacity">03</span>
+<h3 class="mt-8 text-2xl font-extrabold text-on-surface tracking-tight">Education Reform 2030</h3>
+<p class="mt-4 text-on-surface-variant text-base leading-relaxed font-body">Integrated vocational excellence frameworks into the national curriculum, boosting employability rates by 15%.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Qualifications Section -->
+<section class="py-32 bg-white" id="qualifications">
+<div class="max-w-7xl mx-auto px-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+<div class="col-span-1">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-secondary mb-4 block font-bold">Academic Foundation</span>
+<h2 class="text-5xl font-extrabold text-primary tracking-tight">Credentials &amp; Expertise</h2>
+</div>
+<div class="col-span-1 md:col-span-2 space-y-12">
+<div class="border-b border-outline-variant pb-10">
+<h4 class="text-[0.65rem] font-label font-black text-tertiary-fixed-dim uppercase tracking-[0.3em] mb-3">Primary Academic Honor</h4>
+<h3 class="text-3xl font-extrabold text-on-surface tracking-tight">Master in Public Policy (MPP)</h3>
+<p class="text-on-surface-variant mt-4 text-lg font-body leading-relaxed">Specialization in Economic Governance &amp; Global Diplomacy. High Honors distinction for thesis on "Sovereign Debt Mitigation in Emerging Markets."</p>
+</div>
+<div class="border-b border-outline-variant pb-10">
+<h4 class="text-[0.65rem] font-label font-black text-tertiary-fixed-dim uppercase tracking-[0.3em] mb-3">Professional Certification</h4>
+<h3 class="text-3xl font-extrabold text-on-surface tracking-tight">Strategic Infrastructure Certification</h3>
+<p class="text-on-surface-variant mt-4 text-lg font-body leading-relaxed">Advanced credentials in Public-Private Partnership (PPP) frameworks and large-scale urban infrastructure resilience.</p>
+</div>
+<div class="pb-10">
+<h4 class="text-[0.65rem] font-label font-black text-tertiary-fixed-dim uppercase tracking-[0.3em] mb-3">Ministerial Recognition</h4>
+<h3 class="text-3xl font-extrabold text-on-surface tracking-tight">National Diplomas in Governance</h3>
+<p class="text-on-surface-variant mt-4 text-lg font-body leading-relaxed">Awarded for excellence in Administrative Law, Fiscal Responsibility, and Executive Leadership within the Public Sector.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Experience Section -->
+<section class="py-32 bg-surface-container-low" id="experience">
+<div class="max-w-7xl mx-auto px-12">
+<div class="mb-20">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-secondary mb-4 block font-bold">Professional Tenure</span>
+<h2 class="text-5xl md:text-6xl font-extrabold text-primary tracking-tight">A Decades-Long Legacy</h2>
+</div>
+<div class="border-l-2 border-outline-variant pl-12 space-y-24 relative">
+<div class="relative">
+<div class="absolute -left-[54px] top-1.5 w-4 h-4 rounded-full bg-tertiary-fixed-dim ring-8 ring-surface-container-low"></div>
+<span class="font-label text-xs text-secondary font-black tracking-[0.2em] uppercase">2018 — 2023</span>
+<h4 class="text-4xl font-extrabold mt-3 text-primary tracking-tight">Senior Minister of Economic Affairs</h4>
+<p class="mt-6 text-on-surface-variant max-w-3xl text-xl leading-relaxed font-body font-light">
+                        Oversaw the entirety of the national budget allocation and spearheaded the national debt restructuring plan. Represented the state in high-level trade negotiations with the IMF and World Bank, securing a $4.5B stability grant. Managed a cabinet of 12 sub-departments focusing on fiscal health and industrial growth.
+                    </p>
+</div>
+<div class="relative">
+<div class="absolute -left-[54px] top-1.5 w-4 h-4 rounded-full bg-tertiary-fixed-dim ring-8 ring-surface-container-low"></div>
+<span class="font-label text-xs text-secondary font-black tracking-[0.2em] uppercase">2014 — 2018</span>
+<h4 class="text-4xl font-extrabold mt-3 text-primary tracking-tight">Director General of Infrastructure</h4>
+<p class="mt-6 text-on-surface-variant max-w-3xl text-xl leading-relaxed font-body font-light">
+                        Managed a diverse portfolio of $15B in national infrastructure projects. Key accomplishments included the successful revitalization of the national rail network and the modernization of three deep-water ports. Established the 'Green Transit' initiative which reduced carbon emissions in public transport by 22%.
+                    </p>
+</div>
+<div class="relative">
+<div class="absolute -left-[54px] top-1.5 w-4 h-4 rounded-full bg-tertiary-fixed-dim ring-8 ring-surface-container-low"></div>
+<span class="font-label text-xs text-secondary font-black tracking-[0.2em] uppercase">2008 — 2014</span>
+<h4 class="text-4xl font-extrabold mt-3 text-primary tracking-tight">Executive Advisor to the Treasury</h4>
+<p class="mt-6 text-on-surface-variant max-w-3xl text-xl leading-relaxed font-body font-light">
+                        Provided strategic counsel on macroeconomic policy and tax reform. Instrumental in drafting the "Growth for All" legislative framework which incentivized SME development across rural provinces.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Documents Section -->
+<section class="py-24 bg-white" id="documents">
+<div class="max-w-7xl mx-auto px-12">
+<div class="mb-12">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-secondary mb-4 block font-bold">Policy &amp; Archive</span>
+<h2 class="text-4xl font-extrabold text-primary tracking-tight">Documents</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-6">
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Ministerial Report 2022</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Strategic Infrastructure Plan</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Fiscal Reform Whitepaper</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Economic Resilience Brief</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">SME Growth Framework</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Global Trade Policy 2023</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Debt Restructuring Summary</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+<a class="group flex items-center justify-between p-4 border border-outline-variant/30 hover:border-tertiary-fixed-dim transition-colors rounded-md" href="dummy.pdf" target="_blank">
+<span class="font-body text-sm font-semibold text-on-surface group-hover:text-primary transition-colors">Annual Governance Audit</span>
+<span class="material-symbols-outlined text-[1.2rem] text-outline-variant group-hover:text-tertiary-fixed-dim transition-colors">open_in_new</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Focused CTA Section -->
+<section class="py-40 bg-primary text-on-primary" id="contact">
+<div class="max-w-4xl mx-auto px-12 text-center">
+<h2 class="text-5xl md:text-7xl font-extrabold tracking-tighter mb-10 leading-tight">Executive Advisory &amp; Leadership.</h2>
+<p class="text-xl text-primary-fixed-dim mb-12 font-light leading-relaxed font-body max-w-2xl mx-auto">
+                Hisham Abuzaid is currently accepting select inquiries for strategic advisory roles and global leadership panels. Secure a consult for institutional transformation and high-stakes economic strategy.
+            </p>
+<div class="flex flex-col md:flex-row justify-center gap-6">
+<button class="bg-tertiary-fixed text-on-tertiary-fixed px-12 py-5 rounded-md font-label font-black text-xs tracking-[0.3em] uppercase hover:bg-tertiary-fixed-dim transition-all shadow-lg">
+                    Inquiry Portal
+                </button>
+<button class="border-2 border-outline text-on-primary px-12 py-5 rounded-md font-label font-black text-xs tracking-[0.3em] uppercase hover:bg-white/5 transition-all">
+                    Download Portfolio
+                </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer from COMPONENTS_17 -->
+<footer class="bg-slate-50 dark:bg-slate-900 w-full py-16">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 border-t border-slate-200/10 pt-16">
+<div class="mb-8 md:mb-0 text-center md:text-left">
+<span class="font-headline font-black text-slate-900 dark:text-white text-2xl tracking-tighter uppercase">HISHAM ABUZAID</span>
+<p class="font-label uppercase tracking-[0.3em] text-[0.6rem] text-slate-400 dark:text-slate-500 mt-3 font-bold">© 2024 Hisham Abuzaid. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 md:gap-12 font-label uppercase tracking-[0.2em] text-[0.65rem] font-black">
+<a class="text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#">Privacy Policy</a>
+<a class="text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#">Terms of Service</a>
+<a class="text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 transition-colors" href="#">LinkedIn</a>
+</div>
+<div class="mt-8 md:mt-0 flex gap-6">
+<span class="material-symbols-outlined text-amber-500 cursor-pointer hover:opacity-80 transition-opacity">public</span>
+<span class="material-symbols-outlined text-slate-400 dark:text-slate-500 cursor-pointer hover:text-slate-900 dark:hover:text-slate-100 transition-colors">mail</span>
+</div>
+</div>
+</footer>
+</body></html>
