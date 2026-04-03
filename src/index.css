@@ -71,6 +71,18 @@
   --font-arabic: "Cairo", ui-sans-serif, system-ui, sans-serif;
 }
 
+/*
+ * Arabic: Tailwind font utilities compile to font-family: var(--font-body), etc.
+ * Redefining those tokens on html.locale-ar makes every utility use Cairo without
+ * fighting @layer (no duplicate rules, no !important).
+ */
+html.locale-ar {
+  --font-body: var(--font-arabic);
+  --font-headline: var(--font-arabic);
+  --font-label: var(--font-arabic);
+  --font-serif: var(--font-arabic);
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -81,15 +93,8 @@
     font-family: var(--font-body);
   }
 
-  body.locale-ar {
-    font-family: var(--font-arabic);
-  }
-
-  body.locale-ar h1,
-  body.locale-ar h2,
-  body.locale-ar h3,
-  body.locale-ar h4 {
-    font-family: var(--font-arabic);
+  html.locale-ar .font-serif {
+    font-style: normal;
   }
 
   h1,

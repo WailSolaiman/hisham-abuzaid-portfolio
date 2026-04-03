@@ -15,7 +15,18 @@
         } catch (e) {}
       })();
     </script>
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script>
+      (function () {
+        try {
+          var ar = localStorage.getItem("ha-locale") === "ar";
+          document.documentElement.lang = ar ? "ar" : "en";
+          document.documentElement.dir = ar ? "rtl" : "ltr";
+          document.documentElement.classList.toggle("locale-ar", ar);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="512x512" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hisham Ali Ahmed Abuzaid — Transport & Strategic Infrastructure</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />

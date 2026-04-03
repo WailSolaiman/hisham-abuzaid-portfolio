@@ -24,6 +24,16 @@ export function SiteNav() {
   const linkClass =
     "text-muted transition-colors hover:text-tertiary-fixed-dim dark:text-slate-400 dark:hover:text-amber-400";
 
+  const desktopNavItemClass =
+    locale === "ar"
+      ? "text-sm font-bold tracking-wide normal-case"
+      : "text-xs font-semibold uppercase tracking-widest";
+
+  const mobileNavItemClass =
+    locale === "ar"
+      ? "text-base font-bold tracking-wide normal-case"
+      : "text-sm font-semibold uppercase tracking-widest";
+
   return (
     <nav className="fixed top-0 z-50 w-full">
       <AnimatePresence>
@@ -55,7 +65,7 @@ export function SiteNav() {
           {sections.map(({ id, msgKey }) => (
             <a
               key={id}
-              className={`${linkClass} font-label text-xs font-semibold uppercase tracking-widest`}
+              className={`${linkClass} font-label ${desktopNavItemClass}`}
               href={`/#${id}`}
             >
               {n[msgKey]}
@@ -117,7 +127,7 @@ export function SiteNav() {
                   <a
                     key={id}
                     href={`/#${id}`}
-                    className="flex min-h-11 items-center font-label text-sm font-semibold uppercase tracking-widest text-heading transition-colors duration-300 hover:text-tertiary-fixed-dim dark:text-slate-200 dark:hover:text-amber-400"
+                    className={`flex min-h-11 items-center font-label text-heading transition-colors duration-300 hover:text-tertiary-fixed-dim dark:text-slate-200 dark:hover:text-amber-400 ${mobileNavItemClass}`}
                     onClick={() => setOpen(false)}
                   >
                     {n[msgKey]}

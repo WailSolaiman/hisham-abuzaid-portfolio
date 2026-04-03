@@ -39,9 +39,10 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(() => readStoredLocale());
 
   useEffect(() => {
-    document.documentElement.lang = locale === "ar" ? "ar" : "en";
-    document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
-    document.body.classList.toggle("locale-ar", locale === "ar");
+    const ar = locale === "ar";
+    document.documentElement.lang = ar ? "ar" : "en";
+    document.documentElement.dir = ar ? "rtl" : "ltr";
+    document.documentElement.classList.toggle("locale-ar", ar);
     localStorage.setItem(STORAGE_KEY, locale);
   }, [locale]);
 
