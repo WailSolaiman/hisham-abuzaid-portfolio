@@ -19,10 +19,14 @@ export function HomeAchievements() {
             {a.title}
           </h2>
         </Reveal>
-        <div className="grid grid-cols-1 gap-px bg-black/5 px-0.5 dark:bg-white/10 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-px bg-black/5 px-0.5 dark:bg-white/10 md:grid-cols-2 lg:grid-cols-3">
           {a.items.map((item, i) => (
-            <Reveal key={item.n} delay={i * 0.05}>
-              <div className="group bg-white p-10 transition-colors duration-300 hover:bg-surface-bright dark:bg-slate-900 dark:hover:bg-slate-800 md:p-12">
+            <Reveal
+              key={item.n}
+              delay={i * 0.05}
+              className="h-full min-h-0"
+            >
+              <div className="group flex h-full min-h-0 flex-col bg-white p-10 transition-colors duration-300 hover:bg-surface-bright dark:bg-slate-900 dark:hover:bg-slate-800 md:p-12">
                 <span className="font-headline text-6xl font-extrabold text-tertiary-fixed-dim opacity-40 transition-all duration-300 group-hover:opacity-100 dark:text-amber-400 dark:opacity-35 dark:group-hover:opacity-100">
                   {item.n}
                 </span>

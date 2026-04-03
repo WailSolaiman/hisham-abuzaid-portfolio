@@ -13,9 +13,9 @@ export function HomeHero() {
 
   return (
     <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-white dark:bg-slate-950">
-      <div className="mx-auto grid h-full w-full max-w-7xl grid-cols-1 items-center gap-16 px-6 pb-16 md:grid-cols-2 md:px-12 md:pb-0">
+      <div className="mx-auto grid h-full w-full max-w-7xl grid-cols-1 items-center gap-16 px-6 pb-16 md:px-12 lg:grid-cols-2 lg:pb-0">
         <motion.div
-          className="order-2 space-y-10 md:order-1"
+          className="order-2 space-y-10 lg:order-1"
           initial={reduce ? false : { opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.68, ease: [0.22, 1, 0.36, 1] }}
@@ -49,7 +49,7 @@ export function HomeHero() {
         </motion.div>
 
         <motion.div
-          className="relative order-1 h-[420px] md:order-2 md:h-[716px]"
+          className="relative order-1 mx-auto aspect-[3/4] w-full max-w-sm sm:max-w-md md:max-w-lg lg:order-2 lg:mx-0 lg:aspect-auto lg:h-[716px] lg:max-w-none"
           initial={reduce ? false : { opacity: 0, scale: 0.98 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.76, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}

@@ -9,7 +9,7 @@ export function HomeVision() {
 
   return (
     <section id="vision" className="bg-white py-24 md:py-32 dark:bg-slate-900">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 md:grid-cols-2 md:gap-24 md:px-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 md:px-12 lg:grid-cols-2 lg:gap-24">
         <Reveal className="relative">
           <img
             src={VISION_IMG_SRC}

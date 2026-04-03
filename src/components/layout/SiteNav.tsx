@@ -42,7 +42,7 @@ export function SiteNav() {
             key="nav-backdrop"
             type="button"
             aria-label={n.menuClose}
-            className="fixed inset-0 z-10 bg-black/40 md:hidden dark:bg-black/55"
+            className="fixed inset-0 z-10 bg-black/40 lg:hidden dark:bg-black/55"
             initial={reduce ? false : { opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={reduce ? undefined : { opacity: 0 }}
@@ -53,7 +53,7 @@ export function SiteNav() {
       </AnimatePresence>
 
       <div className="relative z-20 border-b border-black/5 bg-white/85 shadow-sm backdrop-blur-md dark:border-white/5 dark:bg-slate-950/85 dark:shadow-none">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-8 md:py-6">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8 lg:py-6">
         <Link
           to="/"
           className="font-headline text-2xl font-extrabold tracking-tighter text-heading transition-colors hover:text-tertiary-fixed-dim dark:text-white dark:hover:text-amber-400"
@@ -61,7 +61,7 @@ export function SiteNav() {
           {n.brand}
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="hidden items-center gap-8 lg:flex">
           {sections.map(({ id, msgKey }) => (
             <a
               key={id}
@@ -73,8 +73,8 @@ export function SiteNav() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2 md:ms-4 md:gap-6">
-          <div className="hidden items-center gap-6 md:flex">
+        <div className="flex items-center gap-2 lg:ms-4 lg:gap-6">
+          <div className="hidden items-center gap-6 lg:flex">
             <button
               type="button"
               onClick={toggleTheme}
@@ -97,7 +97,7 @@ export function SiteNav() {
           </div>
           <button
             type="button"
-            className="inline-flex size-11 items-center justify-center rounded-md md:hidden"
+            className="inline-flex size-11 items-center justify-center rounded-md lg:hidden"
             aria-expanded={open}
             aria-label={open ? n.menuClose : n.menuOpen}
             onClick={() => setOpen((o) => !o)}
@@ -115,7 +115,7 @@ export function SiteNav() {
       <AnimatePresence>
         {open && (
           <motion.div
-            className="relative z-20 border-t border-black/10 bg-white dark:border-white/10 dark:bg-slate-950 md:hidden"
+            className="relative z-20 border-t border-black/10 bg-white dark:border-white/10 dark:bg-slate-950 lg:hidden"
             initial={reduce ? false : { height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={reduce ? undefined : { height: 0, opacity: 0 }}

@@ -61,8 +61,8 @@ export function HomeQualifications() {
       className="bg-white py-24 md:py-32 dark:bg-slate-900"
     >
       <div className="mx-auto max-w-7xl px-6 md:px-12">
-        <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
-          <Reveal>
+        <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <Reveal className="md:col-span-2 lg:col-span-1">
             {q.kicker.trim() ? (
               <span className="mb-4 block font-label text-xs font-bold uppercase tracking-[0.3em] text-tertiary-fixed-dim dark:text-amber-400">
                 {q.kicker}
@@ -72,7 +72,7 @@ export function HomeQualifications() {
               {q.title}
             </h2>
           </Reveal>
-          <div className="space-y-12 md:col-span-2">
+          <div className="space-y-12 md:col-span-2 lg:col-span-2">
             {q.items.map((item, i) => (
               <Reveal key={`${item.label}-${i}`} delay={i * 0.06}>
                 <div
