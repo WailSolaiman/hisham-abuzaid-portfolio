@@ -1,5 +1,5 @@
 /** Hero portrait — served from `/public` */
-export const PORTRAIT_SRC = "/hisham_abuzaid.jpeg";
+export const PORTRAIT_SRC = "/hisham_abuzaid_2.jpeg";
 
 /** HA monogram — footer + hero (tab icons live under `/favicon/`) */
 export const BRAND_MARK_SRC = "/logo.png";
