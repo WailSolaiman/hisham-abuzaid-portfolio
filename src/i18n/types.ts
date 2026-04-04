@@ -21,6 +21,11 @@ export type DocumentItem = {
   href: string;
 };
 
+export type PolicySection = {
+  heading: string;
+  body: string;
+};
+
 export type TrainingCourseItem = {
   title: string;
   meta: string;
@@ -112,9 +117,11 @@ export type LocaleMessages = {
   };
   policy: {
     privacyTitle: string;
-    privacyLead: string;
+    privacyIntro: string;
+    privacySections: PolicySection[];
     termsTitle: string;
-    termsLead: string;
+    termsIntro: string;
+    termsSections: PolicySection[];
     backHome: string;
   };
 };

@@ -21,23 +21,23 @@
     "themeUseDark": "Dark"
   },
   "hero": {
-    "kicker": "Former Minister of Transport & Strategic Infrastructure Leader",
+    "kicker": "Former Minister of Transport | Strategic Infrastructure & Policy Leader",
     "headline": "Hisham Abuzaid",
-    "lead": "Executive leader with over two decades of experience in transportation, logistics, and public sector transformation. Led national-level infrastructure strategies and multi-agency initiatives in the Republic of Sudan.",
-    "quote": "“Strategic vision. Institutional impact.”"
+    "lead": "A distinguished executive leader with over two decades of expertise in transportation, logistics, and public sector transformation. Renowned for orchestrating national-scale infrastructure strategies and driving multi-agency initiatives across the Republic of Sudan.",
+    "quote": "“Visionary Leadership. Institutional Impact.”"
   },
   "vision": {
     "statValue": "25+",
-    "statLabel": "Years of Leadership",
-    "kicker": "Built on institutional stewardship",
+    "statLabel": "Years of Executive Excellence",
+    "kicker": "Built on a Foundation of Institutional Stewardship",
     "title": "Strategic Stewardship",
-    "p1": "Senior executive specialized in transportation systems, public sector reform, and strategic project delivery. Proven ability to lead national initiatives, align stakeholders, and drive long-term economic impact.",
+    "p1": "A Senior Executive specializing in transportation systems, public sector reform, and the delivery of high-impact strategic projects. Proven track record in spearheading national initiatives, aligning diverse stakeholders, and catalyzing long-term economic growth.",
     "bullets": [
-      "Strategic planning & policy development",
-      "Infrastructure & large-scale project leadership",
-      "Public sector governance",
-      "Financial planning & budget oversight",
-      "Cross-functional leadership"
+      "Strategic Planning & Policy Architecture",
+      "Infrastructure & Large-Scale Project Leadership",
+      "Public Sector Governance & Reform",
+      "Financial Planning & Budgetary Oversight",
+      "Cross-Functional & Integrated Leadership"
     ]
   },
   "achievements": {
@@ -47,17 +47,17 @@
       {
         "n": "01",
         "title": "National Transport Strategy",
-        "body": "Led national transportation strategy at ministerial level, aligning infrastructure and policy execution across sectors."
+        "body": "Architected the national transportation strategy at the ministerial level, harmonizing infrastructure development with policy execution across vital sectors."
       },
       {
         "n": "02",
         "title": "Infrastructure & Public Transport Programs",
-        "body": "Directed large-scale public transport and infrastructure initiatives across Sudan."
+        "body": "Spearheaded large-scale public transport and critical infrastructure programs across the Republic of Sudan."
       },
       {
         "n": "03",
         "title": "Institutional & Operational Reform",
-        "body": "Managed complex multi-stakeholder operations and improved coordination across government entities."
+        "body": "Optimized complex multi-stakeholder operations and enhanced synergy across government entities to drive institutional efficiency."
       }
     ]
   },
@@ -68,126 +68,121 @@
       {
         "label": "Academic Foundation",
         "title": "",
-        "body": "PhD Researcher – Transportation Economics\nArab Academy for Science, Technology and Maritime Transport, Alexandria, Egypt (Ongoing)\n\nMaster’s Degree – Logistics & Transportation Economics\nOxford Academy for Consulting & Specialized Studies, Alexandria, Egypt (2017)\n\nMBA – Transportation Economics\nMultimedia University, Malaysia (2014)\n\nHigh Diploma – Business Administration\nAcademy of Management Studies, Sudan (1997)\n\nBachelor of Business Administration\nCairo University, Khartoum Branch, Sudan (1997)"
+        "body": "PhD Researcher in Transportation Economics\nArab Academy for Science, Technology and Maritime Transport, Egypt (In Progress).\n\nMaster’s Degree in Logistics & Transportation Economics\nOxford Academy for Consulting & Specialized Studies, Egypt (2017).\n\nMBA in Transportation Economics\nMultimedia University, Malaysia (2014).\n\nPostgraduate Diploma in Business Administration\nAcademy of Management Studies, Sudan (1997).\n\nBachelor of Business Administration\nCairo University (Khartoum Branch), Sudan (1997)."
       },
       {
         "label": "Professional Certifications",
         "title": "",
-        "body": "PRINCE2 Practitioner\nSix Sigma\nTotal Quality Management"
+        "body": "PRINCE2® Practitioner (Project Management)\nSix Sigma Methodology\nTotal Quality Management (TQM)"
       }
     ]
   },
   "training": {
     "kicker": "",
-    "title": "Professional development",
-    "label": "Additional educational courses",
+    "title": "Professional Development",
+    "label": "Advanced Executive Training",
     "courses": [
       {
-        "title": "Modern strategies in management, inspection and financial control",
-        "meta": "MBI Institute · Egypt · 2015"
+        "title": "Modern Strategies in Management, Inspection, and Financial Control",
+        "meta": "MBI Institute, Egypt (2015)"
       },
       {
-        "title": "Prince 2 Practitioner Certificate",
-        "meta": "Emirates Integrated Tel. Co. (du) · Dubai, UAE · 2009"
+        "title": "PRINCE2® Practitioner Certificate",
+        "meta": "du, Dubai, UAE (2009)"
       },
       {
-        "title": "Total Quality Management Advanced course",
-        "meta": "Emirates Integrated Tel. Co. (du) · Dubai, UAE · 2009"
+        "title": "Advanced Total Quality Management (TQM)",
+        "meta": "du, Dubai, UAE (2009)"
       },
       {
-        "title": "Introduction to Six Sigma certificate",
-        "meta": "Emirates Integrated Tel. Co. (du) · 2008"
+        "title": "Six Sigma Foundation",
+        "meta": "du, Dubai, UAE (2008)"
       },
       {
-        "title": "Advanced Coaching Skills Course",
-        "meta": "Emirates Integrated Tel. Co. (du) · Dubai · 2007"
+        "title": "Advanced Coaching & Leadership Skills",
+        "meta": "du, Dubai, UAE (2007)"
       },
       {
-        "title": "NEURO-Linguistic Programming (NLP) Course",
-        "meta": "ANNOKHBAH for Self Development Center · Dubai · 2005"
+        "title": "Neuro-Linguistic Programming (NLP)",
+        "meta": "Annokhbah Center, Dubai (2005)"
       },
       {
-        "title": "Time Management & Work Pressure Course",
-        "meta": "Creativity Center · Dubai · 2005"
+        "title": "Strategic Time Management & Performance Under Pressure",
+        "meta": "Creativity Center, Dubai (2005)"
       },
       {
-        "title": "Advanced Telephone skills course",
-        "meta": "Spear Head Training Center · Dubai · 2005"
+        "title": "Advanced Professional Communication Skills",
+        "meta": "Spearhead Training, Dubai (2005)"
       },
       {
-        "title": "Negotiation and Persuasion skills – Resolution and Conflict course",
-        "meta": "Creativity Center · Dubai · 2005"
+        "title": "Strategic Negotiation, Persuasion, and Conflict Resolution",
+        "meta": "Creativity Center, Dubai (2005)"
       },
       {
-        "title": "Quality training course",
-        "meta": "Dubai Transport Co. Training Center · Dubai · 2003"
+        "title": "Quality Excellence Training",
+        "meta": "Dubai Transport Training Center, Dubai (2003)"
       },
       {
-        "title": "Telephone skills course",
-        "meta": "Spear Head Training Center · Dubai · 1998"
+        "title": "Professional Communications & Service Excellence",
+        "meta": "Spearhead Training, Dubai (1998)"
       }
     ]
   },
   "recognitions": {
     "kicker": "",
     "title": "Recognitions",
-    "label": "Awards & appreciation",
+    "label": "Awards & Distinguished Honors",
     "entries": [
       {
-        "text": "Selected as employee of the year 2012 – KRT State Government / Sudan."
+        "text": "Recognized as Employee of the Year (2012) – Khartoum State Government, Sudan."
       },
       {
-        "text": "Selected as employee of the year 2007 (Emirates Integrated Telecommunications Co. – du)."
+        "text": "Recognized as Employee of the Year (2007) – Emirates Integrated Telecommunications Co. (du), UAE."
       },
       {
-        "text": "Selected as Employee of the Year 2005 (RTA – Dubai)."
+        "text": "Recognized as Employee of the Year (2005) – RTA, Dubai, UAE."
       },
       {
-        "text": "Selected as Employee of the Month three times (RTA – Dubai) in:",
+        "text": "Three-time recipient of \"Employee of the Month\" (RTA, Dubai): Oct 2004, Feb 2005, Jan 2006."
+      },
+      {
+        "text": "Official Commendations & Certificates of Appreciation:",
         "details": [
-          "October 2004",
-          "February 2005",
-          "January 2006"
-        ]
-      },
-      {
-        "text": "Appreciation certificates from:",
-        "details": [
-          "Dubai Transport Corporation (RTA) · 1999, 2000, 2004, 2006",
-          "Economic Department, Dubai Shopping Festival (DSF) administration · 2000",
-          "Ministry of Infrastructure & Transportation, KRT State, Sudan · 2013"
+          "Roads & Transport Authority (RTA), Dubai | 1999, 2000, 2004, 2006.",
+          "Department of Economy & Tourism (Dubai Shopping Festival) | 2000.",
+          "Ministry of Infrastructure & Transportation, Khartoum State | 2013."
         ]
       }
     ]
   },
   "experience": {
     "kicker": "Professional Tenure",
-    "title": "A Decades-Long Legacy",
+    "title": "A Legacy of Leadership",
     "items": [
       {
         "period": "2021 — 2023",
         "title": "Minister of Transport — Sudan",
-        "body": "Led national transport policies and infrastructure strategy across public sector institutions."
+        "body": "Formulated national transport policies and directed infrastructure strategy across all public sector institutions."
       },
       {
         "period": "2020 — 2021",
         "title": "Managing Director — Land Transportation Authority",
-        "body": "Oversaw transport operations and regulatory frameworks."
+        "body": "Regulated transport operations and established comprehensive regulatory frameworks."
       },
       {
         "period": "2019 — 2020",
         "title": "General Manager — General Transportation Co.",
-        "body": "Managed public transportation systems and operational performance."
+        "body": "Modernized public transportation systems and optimized operational performance."
       },
       {
         "period": "2011 — 2019",
         "title": "Ministry of Infrastructure & Transportation — Sudan",
-        "body": "Held multiple leadership roles across coordination, executive management, and integrated solutions."
+        "body": "Held successive leadership mandates in executive management, coordination, and integrated solutions."
       },
       {
         "period": "1998 — 2011",
-        "title": "Earlier Career — UAE",
-        "body": "Built experience in telecom, transport operations, and customer service systems."
+        "title": "Foundation Years — UAE",
+        "body": "Developed core expertise in telecommunications, transport operations, and world-class service systems within a highly competitive market."
       }
     ]
   },
@@ -207,8 +202,8 @@
   },
   "contact": {
     "title": "Executive Advisory & Leadership",
-    "body": "Available for executive advisory roles, infrastructure strategy consulting, and public sector transformation initiatives.",
-    "portfolio": "Download portfolio"
+    "body": "Currently available for Executive Advisory roles, Infrastructure Strategy Consulting, and Public Sector Transformation initiatives.",
+    "portfolio": "Professional Portfolio"
   },
   "footer": {
     "legalName": "HISHAM ALI AHMED ABUZAID",
@@ -220,9 +215,57 @@
   },
   "policy": {
     "privacyTitle": "Privacy Policy",
-    "privacyLead": "This page describes how we handle personal information when you use this site. Replace this text with your final policy.",
+    "privacyIntro": "This policy explains how Hisham Abuzaid’s portfolio website handles information. It is a simple, informational site based in Sudan. You can replace or expand this text anytime as your needs change.",
+    "privacySections": [
+      {
+        "heading": "Data controller",
+        "body": "Hisham Abuzaid (Sudan).\n\nFor privacy-related questions: hisham.abuzaid.1@gmail.com"
+      },
+      {
+        "heading": "What we collect",
+        "body": "We do not intentionally collect, store, or process personal data through this website. There are no account registrations, no contact forms that submit data to our systems, and no first-party analytics or advertising tools used to track you."
+      },
+      {
+        "heading": "Preferences stored on your device",
+        "body": "Your theme (light/dark) and language choices may be saved only in your browser using localStorage so the site remembers your preferences. This stays on your device and is not sent to us as a database of personal information."
+      },
+      {
+        "heading": "Third-party services",
+        "body": "Hosting: the site is hosted with Hostinger. When you visit the site, Hostinger’s infrastructure may process standard technical data needed to deliver the pages (for example server logs as described in Hostinger’s documentation).\n\nFonts: we use Google Fonts. Loading those fonts may cause your browser to request files from Google; Google may receive technical information such as your IP address under Google’s policies. We do not control Google’s processing.\n\nWe do not sell personal data."
+      },
+      {
+        "heading": "Changes to this policy",
+        "body": "We may update this page from time to time. The “last updated” idea is reflected when you publish changes to the site. For questions, contact hisham.abuzaid.1@gmail.com."
+      }
+    ],
     "termsTitle": "Terms of Service",
-    "termsLead": "These terms govern use of this website. Replace this text with your final legal terms.",
+    "termsIntro": "These terms govern your use of this website. They are basic, practical terms for a personal portfolio. Review them with legal counsel if you need jurisdiction-specific wording.",
+    "termsSections": [
+      {
+        "heading": "Agreement",
+        "body": "By accessing this website, you agree to these terms. If you do not agree, please do not use the site."
+      },
+      {
+        "heading": "Nature of the website",
+        "body": "This is a personal portfolio site operated by Hisham Abuzaid (Sudan). It is provided for general information about professional background and experience. It does not create a client relationship or offer specific professional, legal, or financial advice."
+      },
+      {
+        "heading": "Intellectual property",
+        "body": "Text, images, branding, and layout on this site are protected by applicable intellectual property laws unless otherwise stated. Do not copy or reuse content without permission."
+      },
+      {
+        "heading": "Disclaimer and limitation of liability",
+        "body": "The site is provided “as is” without warranties of any kind. To the fullest extent permitted by law, Hisham Abuzaid is not liable for any damages arising from use of or inability to use the site or reliance on its content."
+      },
+      {
+        "heading": "Changes",
+        "body": "We may update these terms by posting changes on this page. Continued use after changes means you accept the updated terms."
+      },
+      {
+        "heading": "Governing law and contact",
+        "body": "These terms are intended to align with the laws of Sudan, without prejudice to mandatory rules elsewhere. For questions: hisham.abuzaid.1@gmail.com."
+      }
+    ],
     "backHome": "Back to home"
   }
 }
